@@ -1,3 +1,3 @@
 # DBMonster
 
-DBmonster written in [Inesita](https://github.com/inesita-rb/inesita)
+DBmonster app written in [Inesita](https://github.com/inesita-rb/inesita). [Live example.](http://inesita-dbmonster.netlify.com/)
