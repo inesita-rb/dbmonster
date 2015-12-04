@@ -1,6 +1,6 @@
 GIT
   remote: git://github.com/inesita-rb/inesita.git
-  revision: 1cf0815b9ff543c3a84c93e1d3dd43369c453927
+  revision: df676b78cd99bc5842d3adf935d1191d76b3d820
   branch: opal-0.9
   specs:
     inesita (0.2.3)

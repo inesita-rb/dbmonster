@@ -2,6 +2,7 @@ require 'inesita'
 
 require_tree './components'
 
+
 $document.ready do
   app = DBMonster.new.mount_to($document.body)
   r = proc do

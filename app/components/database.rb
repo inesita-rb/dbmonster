@@ -1,31 +1,31 @@
 class Database
   include Inesita::Component
 
+  def randomize
+    rand > 0.1 ? rand * 15 : nil
+  end
+
   def render
-    randomize!
     tr do
       td class: 'dbname' do
-        props
+        props[:name]
       end
       td class: 'query-count' do
         span class: "label #{class_name}"do
-          @count
+          props[:count]
         end
       end
       5.times do
-        component Query
+        component Query, props: { time: randomize }
       end
     end
   end
 
-  def randomize!(range = 0..10)
-    @count = rand(range)
-  end
-
   def class_name
-    case @count
-    when 0..9 then 'label-success'
-    else 'label-warning'
+    if props[:count] < 9
+      'label-success'
+    else
+      'label-warning'
     end
   end
 end
