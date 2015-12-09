@@ -1,9 +1,8 @@
 GIT
   remote: git://github.com/inesita-rb/inesita.git
-  revision: df676b78cd99bc5842d3adf935d1191d76b3d820
-  branch: opal-0.9
+  revision: 99254f6f98e6fbc0a1b37ba9863c534f635f6e3a
   specs:
-    inesita (0.2.3)
+    inesita (0.3.0dev)
       listen (~> 3.0)
       opal (~> 0.9beta)
       opal-browser (~> 0.2)
