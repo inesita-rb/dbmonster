@@ -1,3 +1,12 @@
-# DBMonster
+# DBMonster example written with [Inesita](https://github.com/inesita-rb/inesita)
 
-DBmonster app written in [Inesita](https://github.com/inesita-rb/inesita). [Live example.](http://inesita-dbmonster.netlify.com/)
+[DEMO](http://inesita-dbmonster.netlify.com/)
+
+```sh
+$ git clone https://github.com/inesita-rb/dbmonster.git
+$ cd dbmonster
+$ bundle install
+$ bundle exec inesita server
+```
+
+Go to [http://localhost:9292/](http://localhost:9292/)
