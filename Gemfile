@@ -1,6 +1,5 @@
 source "https://rubygems.org"
 
-gem 'opal-browser'
-gem 'inesita', github: 'inesita-rb/inesita'
+gem 'inesita', '~> 0.3.0'
 
 gem 'bootstrap-sass'
