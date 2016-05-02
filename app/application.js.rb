@@ -2,12 +2,11 @@ require 'inesita'
 
 require_tree './components'
 
-
-$document.ready do
-  app = DBMonster.new.mount_to($document.body)
+Inesita::Browser.ready? do
+  app = DBMonster.new.mount_to(Inesita::Browser.body)
   r = proc do
     app.render!
-    animation_frame { r.call }
+    Inesita::Browser.animation_frame { r.call }
   end
   r.call
 end
