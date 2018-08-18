@@ -4,11 +4,11 @@ class Query
   def render
     td class: "Query elapsed #{class_name}" do
       text props[:time] && props[:time].round(2)
-      div class: 'popover left' do
-        div class: 'popover-content' do
+      div.popover.left do
+        div.popover_content do
           query
         end
-        div class: 'arrow'
+        div.arrow
       end
     end
   end

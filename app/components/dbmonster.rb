@@ -10,7 +10,7 @@ class DBMonster
   end
 
   def render
-    table class: 'table table-striped latest-data' do
+    table.table_striped.latest_data class: 'table' do
       tbody do
         @rows.times do |i|
           component Database, props: { name: "cluster#{i}", count: randomize }

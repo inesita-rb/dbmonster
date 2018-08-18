@@ -7,10 +7,10 @@ class Database
 
   def render
     tr do
-      td class: 'dbname' do
+      td.dbname do
         props[:name]
       end
-      td class: 'query-count' do
+      td.query_count do
         span class: "label #{class_name}"do
           props[:count]
         end
