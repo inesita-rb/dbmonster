@@ -22,9 +22,8 @@ GEM
       listen (~> 3.0)
       opal (~> 0.9)
       websocket (~> 1.0)
-    inesita-router (0.1.0)
-      inesita (~> 0.6.0)
-      opal (~> 0.10)
+    inesita-router (0.2.1)
+      inesita (~> 0.8.0)
     listen (3.1.5)
       rb-fsevent (~> 0.9, >= 0.9.4)
       rb-inotify (~> 0.9, >= 0.9.7)
@@ -72,6 +71,7 @@ DEPENDENCIES
   bootstrap-sass
   inesita
   inesita-livereload
+  inesita-router
   sass
   slim
 
